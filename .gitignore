@@ -1,0 +1,11 @@
+#scss/js/img
+src
+
+#node
+node_modules
+package-lock.json
+package.json
+
+#gulp
+gulpfile.js
+
