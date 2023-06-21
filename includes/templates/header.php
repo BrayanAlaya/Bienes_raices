@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="header <?php echo $inicio ? 'inicio':''?> ">
+    <header class="header <?php echo $inicio ? 'inicio' : '' ?> ">
         <div class="contenedor contenido-header">
             <div class="barra">
                 <a href="index.php">
@@ -18,7 +18,7 @@
                 </a>
                 <div class="mobile-menu">
                     <img src="build/img/barras.svg" alt="icono menu responsive">
-                </div>    
+                </div>
                 <div class="darkmode-nav">
                     <img class="dark-mode-icon" src="./build/img/dark-mode.svg" alt="dark mode image">
                     <nav class="barra-nav">
@@ -29,6 +29,6 @@
                     </nav>
                 </div>
             </div>
-            <?php echo $inicio ? '<h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>':'' ?>
+            <?php echo $inicio ? '<h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>' : '' ?>
         </div>
     </header>

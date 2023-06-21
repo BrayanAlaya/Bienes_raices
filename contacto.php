@@ -1,5 +1,6 @@
 <?php
-include "./includes/templates/header.php";
+include "./includes/funciones.php";
+includeTemplate("header", true);
 ?>
 <main class="contenedor seccion">
     <h1>Contacto</h1>
@@ -60,4 +61,4 @@ include "./includes/templates/header.php";
     </form>
 </main>
 
-<?php include "./includes/templates/footer.php" ?>
+<?php includeTemplate("footer") ?>
