@@ -1,40 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-
-</head>
-
-<body>
-    <header class="header inicio">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="index.html">
-                    <img src="./build/img/logo.svg">
-                </a>
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="icono menu responsive">
-                </div>    
-                <div class="darkmode-nav">
-                    <img class="dark-mode-icon" src="./build/img/dark-mode.svg" alt="dark mode image">
-                    <nav class="barra-nav">
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="anuncios.html">Anuncios</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                    </nav>
-                </div>
-            </div>
-
-            <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
-        </div>
-    </header>
-
+<?php
+    $inicio = true;
+    include "./includes/templates/header.php";
+?>
     <main class="contenedor seccion">
         <h1>Más Sobre Nosotros</h1>
         <div class="iconosindex-contenido">
@@ -213,18 +180,4 @@
         </section>
     </div>
 
-    <footer class="footer seccion">
-        <nav class="contenedor contenido-footer">
-            <nav class="barra-nav">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </nav>
-        <p class="copyright">Todos los derechos reservados 2023 &copf;</p>
-    </footer>
-    <script src="build/js/bundle.min.js"></script>
-</body>
-
-</html>
+<?php include "./includes/templates/footer.php"?>
