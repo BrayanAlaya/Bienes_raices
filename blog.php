@@ -1,6 +1,6 @@
 <?php
 include "./includes/funciones.php";
-includeTemplate("header", true);
+includeTemplate("header");
 ?>
 <main class="contenedor seccion contenido-centrado">
     <h1>Nuestro Blog</h1>
@@ -14,7 +14,7 @@ includeTemplate("header", true);
                 </picture>
             </div>
 
-            <a href="entrada.html" class="blog_contenido">
+            <a href="entrada.php" class="blog_contenido">
                 <h4>Terraza en el techo de tu casa</h4>
                 <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
                 <p>Consejos para construir una terraza en el techo de tu casa con los mejores materiales y
@@ -30,7 +30,7 @@ includeTemplate("header", true);
                     <img loading="lazy" src="./build/img/blog2.webp" alt="imagen blog1">
                 </picture>
             </div>
-            <a href="entrada.html" class="blog_contenido">
+            <a href="entrada.php" class="blog_contenido">
                 <h4>Guia para la decoración de tu hogar</h4>
                 <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
                 <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle
@@ -47,7 +47,7 @@ includeTemplate("header", true);
                     </picture>
                 </div>
 
-                <a href="entrada.html" class="blog_contenido">
+                <a href="entrada.php" class="blog_contenido">
                     <h4>Terraza en el techo de tu casa</h4>
                     <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
                     <p>Consejos para construir una terraza en el techo de tu casa con los mejores materiales y
@@ -63,7 +63,7 @@ includeTemplate("header", true);
                         <img loading="lazy" src="./build/img/blog4.webp" alt="imagen blog1">
                     </picture>
                 </div>
-                <a href="entrada.html" class="blog_contenido">
+                <a href="entrada.php" class="blog_contenido">
                     <h4>Guia para la decoración de tu hogar</h4>
                     <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
                     <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle

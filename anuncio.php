@@ -1,6 +1,6 @@
 <?php
 include "./includes/funciones.php";
-includeTemplate("header", true);
+includeTemplate("header");
 ?>
 <main class="contenedor seccion contenido-centrado">
     <h1>Casa en Venta frente al bosque</h1>

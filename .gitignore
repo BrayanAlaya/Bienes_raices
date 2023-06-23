@@ -9,3 +9,6 @@ package.json
 #gulp
 gulpfile.js
 
+#base php
+base.php
+

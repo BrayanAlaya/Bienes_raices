@@ -1,6 +1,6 @@
 <?php
 include "./includes/funciones.php";
-includeTemplate("header", true);
+includeTemplate("header");
 ?>
 <main class="contenedor seccion">
     <h1>Contacto</h1>
@@ -57,7 +57,7 @@ includeTemplate("header", true);
             <label for="hora">HORA:</label>
             <input type="time" id="hora" min="9:00" max="18:00">
         </fieldset>
-        <input type="submit" value="Enviar" id="btn-formulario_contacto">
+        <input type="submit" value="Enviar" id="btn-formulario_contacto" class="boton-verde-inlineblock">
     </form>
 </main>
 

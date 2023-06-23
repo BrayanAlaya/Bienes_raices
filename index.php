@@ -57,7 +57,7 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncios.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
 
         </div>
@@ -85,7 +85,7 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncios.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
 
         </div>
@@ -113,13 +113,13 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncios.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
 
         </div>
     </div>
     <div class="alinear-derecha">
-        <a href="anuncios.html" class="boton-verde">Ver Todas</a>
+        <a href="anuncios.php" class="boton-verde-block">Ver Todas</a>
     </div>
 </section>
 
@@ -127,7 +127,7 @@ includeTemplate("header", true);
     <div class="contactoindex contenedor ">
         <h1>Encuentra la casa de tus sueños</h1>
         <p>Llena el formulario de contacto y un asesor se pondrá en contacto contigo a la brevedad</p>
-        <a href="contacto.html">Contáctanos</a>
+        <a href="contacto.php" class="boton-amarillo-inlineblock">Contáctanos</a>
     </div>
 </section>
 
@@ -143,7 +143,7 @@ includeTemplate("header", true);
                 </picture>
             </div>
 
-            <a href="entrada.html" class="blog_contenido">
+            <a href="entrada.php" class="blog_contenido">
                 <h4>Terraza en el techo de tu casa</h4>
                 <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
                 <p>Consejos para construir una terraza en el techo de tu casa con los mejores materiales y
@@ -159,7 +159,7 @@ includeTemplate("header", true);
                     <img loading="lazy" src="./build/img/blog2.webp" alt="imagen blog1">
                 </picture>
             </div>
-            <a href="entrada.html" class="blog_contenido">
+            <a href="entrada.php" class="blog_contenido">
                 <h4>Guia para la decoración de tu hogar</h4>
                 <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
                 <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle

@@ -1,6 +1,6 @@
 <?php
 include "./includes/funciones.php";
-includeTemplate("header", true);
+includeTemplate("header");
 ?>
 <main class="contenedor seccion nosotros">
     <h1>Conoce sobre Nosotros</h1>

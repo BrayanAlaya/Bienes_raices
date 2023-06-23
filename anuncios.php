@@ -1,6 +1,6 @@
 <?php
 include "./includes/funciones.php";
-includeTemplate("header", true);
+includeTemplate("header");
 ?>
 <main class="contenedor seccion">
     <h2>Casas y Depas</h2>
@@ -29,7 +29,7 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncio.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
 
         </div>
@@ -57,7 +57,7 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncio.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
 
         </div>
@@ -85,7 +85,7 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncio.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
 
         </div>
@@ -115,7 +115,7 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncio.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
 
         </div>
@@ -143,7 +143,7 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncio.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
 
         </div>
@@ -171,7 +171,7 @@ includeTemplate("header", true);
                         <p>4</p>
                     </li>
                 </ul>
-                <a href="anuncio.html">Ver propiedad</a>
+                <a href="anuncio.php" class="boton-amarillo-block">Ver propiedad</a>
             </div>
         </div>
     </div>
